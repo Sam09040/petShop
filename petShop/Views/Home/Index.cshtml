@@ -1,0 +1,42 @@
+﻿@{
+    ViewData["Title"] = "Página inicial";
+
+    var hora = DateTime.Now.Hour;
+    var mensagem = "";
+    if (hora > 12 && hora < 18){
+        mensagem = "Boa tarde!";
+    }
+    else if (hora >= 18){
+        mensagem = "Boa noite!";
+    }
+    else{
+        mensagem = "Bom dia!";
+    }
+}
+
+<div class="text-center">
+    <h1 class="display-4">@mensagem Bem vindo(a) ao Amigo Patudo™!</h1>
+    <h2 class="h2">Aqui você pode cadastrar seus bichinhos e agendar consultas!</h2>
+</div>
+<br><br>
+<div class="text-start">
+    <h3>Principais produtos</h3>
+    <br>
+    <ul class="list-group list-group-horizontal">
+        <li class="list-group-item"><img src="~/images/golden.png" alt="Ração golden"><br><p class="text-center">Rações Golden</p></li>
+        <li class="list-group-item"><img src="~/images/areiasgato.png" alt="Areais de Gato lado a lado"><br><p class="text-center">Areias de gato</p> </li>
+        <li class="list-group-item"><img src="~/images/royalcanin.png" alt="Ração Royal Canin"><br><p class="text-center">Rações Royal Canin</p></li>
+        <li class="list-group-item"><img src="~/images/cdtgato.png" alt="Caixa de transporte para gatos"><br><p class="text-center">Caixas de transporte</p></li>
+        <li class="list-group-item"><img src="~/images/medgatos.png" alt="Medicamentos para gatos"><br><p class="text-center">Medicamentos</p></li>
+        <li class="list-group-item"><img src="~/images/tapetecao.png" alt="Tapetes para cães"><br><p class="text-center">Tapetes</p></li>
+    </ul>
+    <br><br>
+    <ul class="list-group list-group-horizontal">
+        <li class="list-group-item"><img src="~/images/golden.png" alt="Ração golden"><br><p class="text-center">Rações Golden</p></li>
+        <li class="list-group-item"><img src="~/images/areiasgato.png" alt="Areais de Gato lado a lado"><br><p class="text-center">Areias de gato</p> </li>
+        <li class="list-group-item"><img src="~/images/royalcanin.png" alt="Ração Royal Canin"><br><p class="text-center">Rações Royal Canin</p></li>
+        <li class="list-group-item"><img src="~/images/cdtgato.png" alt="Caixa de transporte para gatos"><br><p class="text-center">Caixas de transporte</p></li>
+        <li class="list-group-item"><img src="~/images/medgatos.png" alt="Medicamentos para gatos"><br><p class="text-center">Medicamentos</p></li>
+        <li class="list-group-item"><img src="~/images/tapetecao.png" alt="Tapetes para cães"><br><p class="text-center">Tapetes</p></li>
+    </ul>
+</div>
