@@ -1,4 +1,6 @@
-﻿@{
+﻿@model UserModel;
+
+@{
     ViewData["Title"] = "Página inicial";
 
     var hora = DateTime.Now.Hour;
@@ -15,7 +17,7 @@
 }
 
 <div class="text-center">
-    <h1 class="display-4">@mensagem Bem vindo(a) ao Amigo Patudo™!</h1>
+    <h1 class="display-4">@Model.nome, @mensagem <br>  Bem vindo(a) ao Amigo Patudo™!</h1>
     <h2 class="h2">Aqui você pode cadastrar seus bichinhos e agendar consultas!</h2>
 </div>
 <br><br>

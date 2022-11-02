@@ -1,14 +1,21 @@
 ﻿using System.Diagnostics;
-
-
+using petShop.Filters;
+using petShop.Helpers;
 namespace petShop.Controllers;
 
+
+// Filtro para não acessar a rota home se não hover usuário logado
+[PaginaParaUsuarioLogado]
 public class HomeController : Controller
 {
+    private readonly ISessao _sessao;
+    public HomeController ( ISessao sessao){
+            _sessao = sessao; 
+    }
 
     public IActionResult Index()
     {
-        return View();
+        return View(_sessao.buscarSessaoDoUsuario());
     }
 
     public IActionResult Pets(){

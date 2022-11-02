@@ -11,8 +11,8 @@ using petShop.Data;
 namespace petShop.Migrations
 {
     [DbContext(typeof(PetShopContext))]
-    [Migration("20221028193919_NoAgends")]
-    partial class NoAgends
+    [Migration("20221029163858_UserModel")]
+    partial class UserModel
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -65,6 +65,30 @@ namespace petShop.Migrations
                     b.HasKey("idPet");
 
                     b.ToTable("Pets");
+                });
+
+            modelBuilder.Entity("petShop.Models.UserModel", b =>
+                {
+                    b.Property<int>("idUser")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    b.Property<string>("email")
+                        .IsRequired()
+                        .HasMaxLength(450)
+                        .HasColumnType("varchar(450)");
+
+                    b.Property<string>("nome")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("senha")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.HasKey("idUser");
+
+                    b.ToTable("Users");
                 });
 #pragma warning restore 612, 618
         }

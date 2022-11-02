@@ -1,6 +1,12 @@
+using petShop.Filters;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
+using petShop.Repository;
+using petShop.Models;
 
 
 namespace petShop.Controllers{    
+[PaginaParaUsuarioLogado]
     public class PetsController : Controller{
         private readonly IPetRepository pet_repository;
         public PetsController(IPetRepository petRepository){
@@ -30,7 +36,7 @@ namespace petShop.Controllers{
             return RedirectToAction("Index");
         }
         public IActionResult VerDeletar(int id){
-            PetModel pet = pet_repository.buscarId(id);
+            var pet = pet_repository.buscarId(id);
             return View(pet);
         }
         public IActionResult Deletar(int id){

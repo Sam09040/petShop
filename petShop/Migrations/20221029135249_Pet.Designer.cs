@@ -2,6 +2,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using petShop.Data;
 
@@ -10,9 +11,10 @@ using petShop.Data;
 namespace petShop.Migrations
 {
     [DbContext(typeof(PetShopContext))]
-    partial class PetShopContextModelSnapshot : ModelSnapshot
+    [Migration("20221029135249_Pet")]
+    partial class Pet
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -63,30 +65,6 @@ namespace petShop.Migrations
                     b.HasKey("idPet");
 
                     b.ToTable("Pets");
-                });
-
-            modelBuilder.Entity("petShop.Models.UserModel", b =>
-                {
-                    b.Property<int>("idUser")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    b.Property<string>("email")
-                        .IsRequired()
-                        .HasMaxLength(450)
-                        .HasColumnType("varchar(450)");
-
-                    b.Property<string>("nome")
-                        .IsRequired()
-                        .HasColumnType("longtext");
-
-                    b.Property<string>("senha")
-                        .IsRequired()
-                        .HasColumnType("longtext");
-
-                    b.HasKey("idUser");
-
-                    b.ToTable("Users");
                 });
 #pragma warning restore 612, 618
         }

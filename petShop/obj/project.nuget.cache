@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iV8BLHoOMv5Wj5Aldr6UnmiDgHnAHu5IuFu4UPCw6LuH4Q6jyIZ2lcmtIjB9AHe+ts8vOz2ulMEBtIVxyON0zw==",
+  "dgSpecHash": "hlhZYTuiIyHcENQ6Etf6zLc9fbr1pf1XFbOKxZRjDL9teee+v8cnrEbSvX1MUl+0Kolu5ApcaHexwuwN+M21oA==",
   "success": true,
-  "projectFilePath": "E:\\Documents\\GitHub\\petShop\\petShop\\petShop.csproj",
+  "projectFilePath": "E:\\documents\\github\\petshop\\petshop\\petShop.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Adm\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Adm\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
