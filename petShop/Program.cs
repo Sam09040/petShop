@@ -61,7 +61,7 @@ internal class Program
         app.UseAuthentication();
         app.UseAuthorization();
         app.UseSession();
-        
+
         app.MapControllerRoute(
             name: "default",
             pattern: "{controller=Authentication}/{action=Registrar}/{id?}");
