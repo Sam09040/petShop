@@ -1,6 +1,10 @@
 {
   "Version": 1,
+<<<<<<< Updated upstream
   "Hash": "nqPFLoaGq4BZdt7ArzrJ8xyyQuvryU19hrQL7bWWoKo=",
+=======
+  "Hash": "/1bIPv1+JBP7qeYAU92d9MhgktBmUujqtOCU2ey3GP0=",
+>>>>>>> Stashed changes
   "Source": "petShop",
   "BasePath": "_content/petShop",
   "Mode": "Default",
@@ -51,7 +55,28 @@
       "OriginalItemSpec": "E:\\documents\\github\\petshop\\petshop\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\petShop.bundle.scp.css"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "E:\\documents\\github\\petshop\\petshop\\wwwroot\\css\\login.css",
+=======
+      "Identity": "E:\\Documents\\GitHub\\petShop\\petShop\\wwwroot\\css\\login.css",
+      "SourceId": "petShop",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Documents\\GitHub\\petShop\\petShop\\wwwroot\\",
+      "BasePath": "_content/petShop",
+      "RelativePath": "css/login.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\login.css"
+    },
+    {
+      "Identity": "E:\\Documents\\GitHub\\petShop\\petShop\\wwwroot\\css\\site.css",
+>>>>>>> Stashed changes
       "SourceId": "petShop",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\documents\\github\\petshop\\petshop\\wwwroot\\",
@@ -102,7 +127,28 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "E:\\documents\\github\\petshop\\petshop\\wwwroot\\images\\account.png",
+=======
+      "Identity": "E:\\Documents\\GitHub\\petShop\\petShop\\wwwroot\\images\\account.png",
+      "SourceId": "petShop",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Documents\\GitHub\\petShop\\petShop\\wwwroot\\",
+      "BasePath": "_content/petShop",
+      "RelativePath": "images/account.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\account.png"
+    },
+    {
+      "Identity": "E:\\Documents\\GitHub\\petShop\\petShop\\wwwroot\\images\\areiasgato.png",
+>>>>>>> Stashed changes
       "SourceId": "petShop",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\documents\\github\\petshop\\petshop\\wwwroot\\",
@@ -153,10 +199,17 @@
       "OriginalItemSpec": "wwwroot\\images\\cdtgato.png"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "E:\\documents\\github\\petshop\\petshop\\wwwroot\\images\\exit.png",
       "SourceId": "petShop",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\documents\\github\\petshop\\petshop\\wwwroot\\",
+=======
+      "Identity": "E:\\Documents\\GitHub\\petShop\\petShop\\wwwroot\\images\\exit.png",
+      "SourceId": "petShop",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Documents\\GitHub\\petShop\\petShop\\wwwroot\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/petShop",
       "RelativePath": "images/exit.png",
       "AssetKind": "All",
@@ -170,7 +223,11 @@
       "OriginalItemSpec": "wwwroot\\images\\exit.png"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "E:\\documents\\github\\petshop\\petshop\\wwwroot\\images\\golden.png",
+=======
+      "Identity": "E:\\Documents\\GitHub\\petShop\\petShop\\wwwroot\\images\\golden.png",
+>>>>>>> Stashed changes
       "SourceId": "petShop",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\documents\\github\\petshop\\petshop\\wwwroot\\",

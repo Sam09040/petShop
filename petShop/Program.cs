@@ -55,7 +55,11 @@ internal class Program
         
         app.MapControllerRoute(
             name: "default",
+<<<<<<< Updated upstream
             pattern: "{controller=Authentication}/{action=Logar}/{id?}");
+=======
+            pattern: "{controller=Authentication}/{action=Registrar}/{id?}");
+>>>>>>> Stashed changes
 
         app.Run();
     }
