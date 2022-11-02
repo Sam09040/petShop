@@ -31,7 +31,8 @@ internal class Program
         builder.Services.AddSession();
         builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
         builder.Services.AddScoped<ISessao, Sessao>();
-        builder.Services.AddSession( o => {
+        builder.Services.AddSession(o =>
+        {
             o.Cookie.HttpOnly = true;
             o.Cookie.IsEssential = true;
         });
@@ -45,6 +46,14 @@ internal class Program
             app.UseHsts();
         }
 
+        app.UseMvc(routes => {
+            routes.MapAreaRoute(name: "Pets", areaName: "mvcPetsRoute",
+                                template: "{area: exists}/{Controller=Pets}/{action=VerDeletar}/{id?}");
+
+            routes.MapAreaRoute(name: "default", areaName: "default",
+                                template: "{controller=Home}/{action=Index}");
+        });
+
         app.UseHttpsRedirection();
         app.UseStaticFiles();
 
@@ -55,11 +64,7 @@ internal class Program
         
         app.MapControllerRoute(
             name: "default",
-<<<<<<< Updated upstream
-            pattern: "{controller=Authentication}/{action=Logar}/{id?}");
-=======
             pattern: "{controller=Authentication}/{action=Registrar}/{id?}");
->>>>>>> Stashed changes
 
         app.Run();
     }
