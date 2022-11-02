@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "sXta4yJZNMqGsW/9xlFM0nJdSz1mAyJNLliY1yxjfB4=",
+  "Hash": "/1bIPv1+JBP7qeYAU92d9MhgktBmUujqtOCU2ey3GP0=",
   "Source": "petShop",
   "BasePath": "_content/petShop",
   "Mode": "Default",
@@ -51,6 +51,23 @@
       "OriginalItemSpec": "E:\\Documents\\GitHub\\petShop\\petShop\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\petShop.bundle.scp.css"
     },
     {
+      "Identity": "E:\\Documents\\GitHub\\petShop\\petShop\\wwwroot\\css\\login.css",
+      "SourceId": "petShop",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Documents\\GitHub\\petShop\\petShop\\wwwroot\\",
+      "BasePath": "_content/petShop",
+      "RelativePath": "css/login.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\login.css"
+    },
+    {
       "Identity": "E:\\Documents\\GitHub\\petShop\\petShop\\wwwroot\\css\\site.css",
       "SourceId": "petShop",
       "SourceType": "Discovered",
@@ -85,6 +102,23 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+      "Identity": "E:\\Documents\\GitHub\\petShop\\petShop\\wwwroot\\images\\account.png",
+      "SourceId": "petShop",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Documents\\GitHub\\petShop\\petShop\\wwwroot\\",
+      "BasePath": "_content/petShop",
+      "RelativePath": "images/account.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\account.png"
+    },
+    {
       "Identity": "E:\\Documents\\GitHub\\petShop\\petShop\\wwwroot\\images\\areiasgato.png",
       "SourceId": "petShop",
       "SourceType": "Discovered",
@@ -117,6 +151,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\cdtgato.png"
+    },
+    {
+      "Identity": "E:\\Documents\\GitHub\\petShop\\petShop\\wwwroot\\images\\exit.png",
+      "SourceId": "petShop",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Documents\\GitHub\\petShop\\petShop\\wwwroot\\",
+      "BasePath": "_content/petShop",
+      "RelativePath": "images/exit.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\exit.png"
     },
     {
       "Identity": "E:\\Documents\\GitHub\\petShop\\petShop\\wwwroot\\images\\golden.png",

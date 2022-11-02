@@ -9,6 +9,8 @@ namespace petShop.Data{
     public class PetShopContext : DbContext{
         public PetShopContext(DbContextOptions<PetShopContext> options) : base(options){}
         public DbSet<PetModel> Pets{get;set;}
+        public DbSet<UserModel> Users{get;set;}
+
         
     }
 }

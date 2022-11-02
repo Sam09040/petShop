@@ -1,6 +1,8 @@
+using petShop.Filters;
 
 
 namespace petShop.Controllers{    
+[PaginaParaUsuarioLogado]
     public class PetsController : Controller{
         private readonly IPetRepository pet_repository;
         public PetsController(IPetRepository petRepository){

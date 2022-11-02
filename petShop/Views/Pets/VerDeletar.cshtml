@@ -13,6 +13,6 @@
 
 <div class="text-center">
     <h1 class="display-4">Realmente deseja deletar as informações de @Model.nome?</h1><br>
-    <a role="button" class="btn btn-danger" asp-controller="Pets" asp-route-id="@Model.idPet" asp-action="Deletar">Deletar</a>
+    <a role="button" class="btn btn-danger" asp-controller="Pets" asp-route="@Model.idPet" asp-action="Deletar">Deletar</a>
     <a role="button" class="btn btn-info" asp-controller="Pets" asp-action="Index">Voltar</a>
 </div>
