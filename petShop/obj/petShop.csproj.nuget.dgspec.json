@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\documents\\github\\petshop\\petshop\\petShop.csproj": {}
+    "E:\\Documents\\GitHub\\petShop\\petshop\\petShop.csproj": {}
   },
   "projects": {
-    "E:\\documents\\github\\petshop\\petshop\\petShop.csproj": {
+    "E:\\Documents\\GitHub\\petShop\\petshop\\petShop.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\documents\\github\\petshop\\petshop\\petShop.csproj",
+        "projectUniqueName": "E:\\Documents\\GitHub\\petShop\\petshop\\petShop.csproj",
         "projectName": "petShop",
-        "projectPath": "E:\\documents\\github\\petshop\\petshop\\petShop.csproj",
+        "projectPath": "E:\\Documents\\GitHub\\petShop\\petshop\\petShop.csproj",
         "packagesPath": "C:\\Users\\Adm\\.nuget\\packages\\",
-        "outputPath": "E:\\documents\\github\\petshop\\petshop\\obj\\",
+        "outputPath": "E:\\Documents\\GitHub\\petShop\\petshop\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

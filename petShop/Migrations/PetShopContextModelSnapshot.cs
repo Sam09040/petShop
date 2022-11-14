@@ -65,6 +65,29 @@ namespace petShop.Migrations
                     b.ToTable("Pets");
                 });
 
+            modelBuilder.Entity("petShop.Models.ProductModel", b =>
+                {
+                    b.Property<int>("idProduct")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    b.Property<string>("altText")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("camProd")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("nomeProd")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.HasKey("idProduct");
+
+                    b.ToTable("Products");
+                });
+
             modelBuilder.Entity("petShop.Models.UserModel", b =>
                 {
                     b.Property<int>("idUser")

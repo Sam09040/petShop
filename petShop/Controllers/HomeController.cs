@@ -1,4 +1,4 @@
-﻿using System.Diagnostics;
+using System.Diagnostics;
 using petShop.Filters;
 using petShop.Helpers;
 namespace petShop.Controllers;
@@ -8,21 +8,22 @@ namespace petShop.Controllers;
 [PaginaParaUsuarioLogado]
 public class HomeController : Controller
 {
+    private readonly IProductRepository prod_Repository;
     private readonly ISessao _sessao;
-    public HomeController ( ISessao sessao){
+    public HomeController ( ISessao sessao, IProductRepository productRepository){
             _sessao = sessao; 
+            prod_Repository = productRepository;
     }
 
     public IActionResult Index()
     {
-        return View(_sessao.buscarSessaoDoUsuario());
+        List<ProductModel> produtos = prod_Repository.listarProdutos();
+        return View(produtos);
     }
+
 
     public IActionResult Pets(){
         return RedirectToAction("Index","Pets");
-    }
-    public IActionResult Agend(){
-        return RedirectToAction("Index", "Agend");
     }
 
     public IActionResult Privacy()

@@ -28,6 +28,7 @@ internal class Program
 
         builder.Services.AddScoped<IPetRepository, PetRepository>();
         builder.Services.AddScoped<IUserRepository, UserRepository>();
+        builder.Services.AddScoped<IProductRepository, ProductRepository>();
         builder.Services.AddSession();
         builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
         builder.Services.AddScoped<ISessao, Sessao>();
@@ -46,13 +47,13 @@ internal class Program
             app.UseHsts();
         }
 
-        app.UseMvc(routes => {
+        /* app.UseMvc(routes => {
             routes.MapAreaRoute(name: "Pets", areaName: "mvcPetsRoute",
                                 template: "{area: exists}/{Controller=Pets}/{action=VerDeletar}/{id?}");
 
             routes.MapAreaRoute(name: "default", areaName: "default",
                                 template: "{controller=Home}/{action=Index}");
-        });
+        }); */
 
         app.UseHttpsRedirection();
         app.UseStaticFiles();
